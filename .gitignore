@@ -1,2 +1,31 @@
+# .gitignore é uma lista dos arquivos e pastas desnecessários (como compilados) que não serão enviados para esse repositório.
+# Arquivos compilados
 *.class
 bin/
+
+# Arquivos de log e de sistema
+*.log
+.DS_Store
+
+# Configurações de IDEs e virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+.idea/
+.vscode/
+/.vscode
+hs_err_pid*
+settings.json
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
